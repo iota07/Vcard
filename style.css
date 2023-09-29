@@ -27,11 +27,6 @@ body {
     border-radius: 15px;
 }
 
-.card-wrapper:hover .card {
-    transform: rotateY(180deg);
-}
-
-
 
 .front, .back {
     width: 100%;
@@ -165,6 +160,14 @@ p{
     }
     .card-wrapper:active .card { 
         transform: rotateY(180deg); 
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 600px) {
+
+    .card-wrapper:hover .card {
+        transform: rotateY(180deg);
     }
 
 
