@@ -145,6 +145,10 @@ p{
         left: 50%;    
 
     }
+
+    .card-wrapper:active .card { 
+        transform: rotateY(180deg); 
+    }
     
 }
 
@@ -159,4 +163,9 @@ p{
         left: 50%;    
 
     }
+    .card-wrapper:active .card { 
+        transform: rotateY(180deg); 
+    }
+
+
 }
