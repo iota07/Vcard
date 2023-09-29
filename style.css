@@ -16,6 +16,10 @@ body {
     perspective: 1000px ;
 }
 
+.card-wrapper:hover .card {
+    transform: rotateY(180deg);
+}
+
 .card {
     width: 550px;
     height: 300px;
@@ -141,10 +145,7 @@ p{
 
     }
 
-    .card-wrapper:active .card { 
-        transform: rotateY(180deg); 
-    }
-    
+        
 }
 
 /*tablet*/
@@ -163,12 +164,3 @@ p{
     }
 }
 
-/*Desktop*/
-@media only screen and (min-width: 600px) {
-
-    .card-wrapper:hover .card {
-        transform: rotateY(180deg);
-    }
-
-
-}
