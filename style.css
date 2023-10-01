@@ -62,7 +62,9 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     color:#377357;
-    text-shadow: 3px 3px 8px;
+    -webkit-text-stroke-color: hsl(213, 43%, 46%);
+    -webkit-text-stroke-width: 0.3px;
+    text-shadow: 5px 5px 8px;
 }
 
 .right {
@@ -134,10 +136,10 @@ p{
 }
 
 /*Mobile S/M/L*/
-@media only screen and (min-width: 200px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     
     .card-wrapper {
-        transform: rotate(90deg) scale(0.75) translate(-50%, -50%); 
+        transform: scale(0.56) translate(-50%, -50%); 
         transform-origin: top left; 
         position: absolute; 
         top: 50%; 
@@ -149,10 +151,10 @@ p{
 }
 
 /*tablet*/
-@media only screen and (min-width: 426px) and (max-width: 600px) {
+@media only screen and (min-width: 426px) and (max-width: 560px) {
 
     .card-wrapper {
-        transform: rotate(90deg) scale(0.95) translate(-50%, -50%); 
+        transform: scale(0.75) translate(-50%, -50%); 
         transform-origin: top left; 
         position: absolute; 
         top: 50%; 
